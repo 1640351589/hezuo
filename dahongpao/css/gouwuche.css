@@ -1,0 +1,435 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.one{
+	width: 100%;
+	background: #333333;
+	height: 40px;
+}
+.one-one{
+	width: 1200px;
+	margin: auto;
+	position: relative;
+}
+.one-one a{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 40px;
+	color: #b0b0b0;
+	padding-right: 25px;
+}
+.one-one a:hover{
+	color: #ff4500;
+}
+.one-one span{
+	color: #b0b0b0;
+}
+.one-two{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.one-three{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#gou{
+	width: 70px;
+	height: 40px;
+	background: #ff3600;
+	font-size: 16px;
+	color: #fff;
+	padding-left: 50px;
+	position: relative;
+}
+#gou span{
+	font-size: 16px;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 20px;
+}
+#gou:hover{
+	background: #e0e0e0;
+	color: #ff4500;
+}
+#gou:hover .wu{
+	color: #ff4500;
+}
+.one-four{
+	width: 130px;
+	height: 160px;
+	background: #fff;
+	position: relative;
+	position: absolute;
+	top: 40px;
+	left: 240px;
+	display: none;
+}
+.one-four img{
+	position: absolute;
+	top: -15%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.one-four p{
+	text-align: center;
+	margin-top: 130px;
+}
+
+.two{
+	width: 100%;
+}
+.two img{
+	width: 100%;
+}
+
+.three{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+}
+.three-two{
+	margin-top: 30px;
+}
+.three-two input{
+	width: 430px;
+	height: 40px;
+	border: 1px solid #c7c7c7;
+	margin-left: 40px;
+	padding-left: 10px;
+}
+.three-two button{
+	width: 60px;
+	height: 40px;
+	background: #fff;
+	border: 1px solid #c7c7c7;
+	margin-left: -5px;
+	line-height: 20px;
+	margin-right: 110px;
+	cursor: pointer;
+}
+.three-two p{
+	margin-left: 40px;
+	margin-top: 15px;
+}
+.three-two p a{
+	font-size: 12px;
+	padding-right: 20px;
+}
+.three-two p a:nth-of-type(1){
+	color: #ff3600;
+}
+.three-two p a:nth-of-type(2){
+	color: #999999;
+}
+.three-two p a:nth-of-type(3){
+	color: #999999;
+}
+.three-two p a:nth-of-type(4){
+	color: #999999;
+}
+.three-two p a:hover{
+	color: #ff3600;
+}
+.three-three{
+	display: flex;
+	font-size: 12px;
+	color: #999999;
+}
+.thr-one{
+	width: 85px;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+.thr-one img{
+	vertical-align: middle;
+}
+.thr-one p{
+	margin-top: -30px;
+	margin-left: 30px;
+}
+.thr-four{
+	position: relative;
+}
+.thr-four img{
+	width: 53px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+.thr-four p{
+	margin-top: 80px;
+}
+
+
+dl dd p{
+	margin: 0;
+}
+table{
+	border-collapse: collapse;
+}
+th,td{
+	padding: 0;
+}
+input{
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+label,img{
+	vertical-align: middle;
+}
+body{
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+tbody{
+	background:#fbf9f9;
+}
+.clearfix:after{/*清除浮动*/
+	content: '';
+	display: block;
+	clear: both;
+}
+#shopping{
+	width: 1000px;
+	margin: 50px auto;
+}
+#shopping table{
+	width: 100%;
+}
+#shopping thead{
+	background: #f5f5f5;
+	border: 1px solid #ddd;
+}
+#shopping thead label{
+	margin-left: 10px;
+}
+#shopping thead th:nth-of-type(1){
+	text-align: left;
+	padding-left:42px;
+}
+#shopping thead th:nth-of-type(2){
+	text-align: center;
+}
+#shopping th{
+	height: 50px;
+	color: #333;
+	font-size: 16px;
+	font-weight: normal;
+}
+#shopping input{
+	width: 18px;
+	height: 18px;
+}
+#shopping label img{
+	background: #f4f4f4;
+	border: 1px solid #eaeaea;
+	margin-left: 20px;
+}
+.main td{
+	text-align: center;
+	padding: 15px 0;
+}
+.main{
+	border-bottom: 1px dashed #ddd;
+}
+.main tr:hover,.main tr.active{
+	background: #fffbf0;
+}
+.space{
+	height: 20px;
+}
+.main tr td:nth-of-type(1){
+	text-align: center;
+	padding-left: 10px;
+	font-size: 0;
+	width: 180px;
+}
+.main tr td:nth-of-type(2){
+	text-align: left;
+    width: 230px;
+    padding-left:10px;
+}
+.main p{
+	font-size: 14px;
+	color: #666;
+}
+.main tr td:nth-of-type(3){
+	color: #d90808;
+}
+.main tr td:nth-of-type(4){
+	font-size: 0;
+	width: 150px;
+}
+.main tr td:nth-of-type(6){
+	font-size:20px;
+	color:#BBBBBB;
+	cursor:pointer;
+	width: 150px;
+}
+.main tr td:nth-of-type(4) span{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	border: 1px solid #ddd;
+	text-align: center;
+    line-height:24px;
+    font-size: 12px;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 14px;
+}
+.main tr td:nth-of-type(4) strong{
+	width: 58px;
+	height: 24px;
+	display: inline-block;
+	vertical-align:middle;
+	line-height: 24px;
+	font-size: 12px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+}
+.main tr td:nth-of-type(5){
+	color: #D90808;
+	width: 200px;
+}
+#shopping tfoot{
+	background: #f5f5f5;
+	border: 1px solid #ddd;
+}
+#shopping tfoot td{
+	height: 60px;
+}
+#shopping tfoot td:nth-of-type(1){
+	padding-left: 10px;
+}
+#shopping tfoot td:nth-of-type(2){
+	padding-right: 10px;
+	text-align: right;
+	
+}
+#shopping tfoot p{
+	color: #333;
+	font-size: 12px;
+	}
+#shopping tfoot p:nth-of-type(1){
+	font-size: 14px;
+}
+#shopping tfoot p:nth-of-type(2){
+	color: #999;
+}
+#shopping tfoot strong{
+	color: #D90808;
+	font-size: 24px;
+}
+.yingfu{
+	height:60px;
+	background:red;
+	text-align:center;
+	color:white;
+	cursor:pointer;
+}
+.manx{
+	position: relative;
+}
+
+
+.quequ{
+	display:none;
+	position: absolute;
+	top: -100px;
+	right: -60px;
+	width: 288px;
+	height: 120px;
+	background: #fff;
+	border: 1px solid #ca151e;
+}
+.quequ p{
+	text-align: center;
+	margin-top: 24px;
+	padding-bottom: 28px;
+	color: #ca151e;
+}
+.pa-one{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	background: #ca151e;
+	margin-left: 15px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+	color: #fff;
+	cursor: pointer;
+}
+.pa-one:hover{
+	background: #ab0009;
+}
+.pa-two{
+	display: inline-block;
+	width: 118px;
+	height: 28px;
+	background: #fafafa;
+	margin-left: 10px;
+	border: 1px solid #bbbbbb;
+	text-align: center;
+	line-height: 28px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.pa-two:hover{
+	background: #3a3a3a;
+	color: #fff;
+}
+.huodong{
+	display:none;
+	position: absolute;
+	top: -100px;
+	right: -60px;
+	width: 288px;
+	height: 120px;
+	background: #fff;
+	border: 1px solid #ca151e;
+}
+
+#noshop{
+	width: 100%;
+	background: #f5f5f5;
+	display: none;
+}
+.noshop-one{
+	width: 1200px;
+	margin: auto;
+	position: relative;
+}
+.noshop-one img{
+	margin: 30px 0 40px 0;
+}
+#qugouwu{
+	width: 72px;
+	height: 28px;
+	background: black;
+	position: absolute;
+	top: 44%;
+	left: 44.8%;
+	cursor: pointer;
+}

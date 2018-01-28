@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="shortcut icon" href="img/icon.ico"/>
+		<style type="text/css">
+			*{
+				margin:0;
+				padding:0;
+			}
+			body{
+				background:#f5f5f5;
+			}
+			.center{
+				margin:0 auto;
+				width:1200px;
+			}
+			.header1{
+				background:white;
+			}
+			.header{
+				height:100px;
+				line-height:100px;
+				display:flex;
+			}
+			.header img{
+				vertical-align:middle;
+			}
+			.right{
+				margin-left:760px;
+			}
+			.right span{
+				color:#999999;
+			}
+			.right a{
+				cursor:pointer;
+				color:black;
+			}
+			.right a:hover{
+				color:red;
+			}
+			.huan{
+				font-size:20px;
+				margin-left:20px;
+			}
+			.zhu{
+				background:#F5F5F5;
+				margin-top:20px;
+				/*text-align:center;*/
+			}
+			.zhu1{
+				padding:20px 0 10px 0;
+			}
+			.zhu1 img{
+				vertical-align:middle;
+				width:60px;
+			}
+			.zhu1 strong{
+				font-size:20px;
+			}
+			.zhu1 span{
+				color:red;
+			}
+			.inp input{
+				display:block;
+				width:300px;
+				height:50px;
+				padding-left:10px;
+				margin-top:20px;
+			}
+			#yan1{
+				width:176px;
+				height:50px;
+				padding-left:10px;
+			}
+			#yan2{
+				width:175px;
+				height:50px;
+				padding-left:10px;
+			}
+			#yan3{
+				width:125px;
+				height:50px;
+				padding-left:10px;
+				border:none;
+				background:#F0F0F0;
+				color:#adadad;
+				cursor:pointer;
+				font-size:14px;
+			}
+			#yan3:hover{
+				color:red;
+			}
+			.zheng{
+				margin-top:20px;
+			}
+			.inp img:nth-of-type(1){
+				width:115px;
+				margin-left: 3%;
+				height:54px;
+				vertical-align:middle;
+				margin-top: 20px;
+			}
+			.zheng1{
+				margin-top:20px;
+			}
+			#an{
+				width:315px;
+				height:50px;
+				margin-top:20px;
+				border:none;
+				background:#F0F0F0;
+				color:#adadad;
+				cursor:pointer;
+				font-size:14px;
+			}
+			#an:hover{
+				color:red;
+			}
+			.zhu2{
+				width:1200px;
+				background:white;
+			}
+			.zhus{
+				font-size:12px;
+				color:#adadad;
+				padding:20px 0 80px 0;
+			}
+			.zhus p span{
+				color:black;
+				cursor:pointer;
+			}
+			.zhus p span:hover{
+				color:red;
+			}
+			.foot{
+				text-align: center;
+				font-size:14px;
+				color:#999;
+				padding:30px 0 20px 0;
+			}
+		    .zhu3{
+		    	text-align: center;
+		    }
+		    
+		    .nea{
+		    	width: 320px;
+		    	margin: auto;
+		    	position: relative
+		    }
+		    #yz1{
+		    	float: left;
+		    }
+		    #yz2{
+		    	float: left;
+		    }
+		    #yz3{
+		    	position: absolute;
+		    	left: 0;
+		    }
+		    #yz4{
+		    	position: absolute;
+		    	left: 0;
+		    }
+		    #yz5{
+		    	position: absolute;
+		    	left: 0;
+		    }
+		</style>
+	</head>
+	<body>
+		<div class="header1">
+		<header class="header center">
+		<div>
+		<!--<img src="img/logo.png"/>-->
+		<span class="huan">欢迎注册</span>
+		</div>
+		<div class="right">
+		<span>已有账号?</span>
+		<a>登录＞</a>
+		</div>
+		</header>
+		</div>
+		
+		<div class="zhu">
+			<div class="center zhu2">
+				<div class="zhu3">
+			<p class="zhu1">
+				<!--<img src="img/2018-01-25_211417.gif"/>-->
+				<strong>注册立享<span>300元</span>大礼包</strong>
+			</p>
+			<div class="nea">
+					
+					<div class="inp">
+						<input type="tel" id="tel" placeholder="手机号码" required pattern="^1[3579]\d{9}$"/>
+						<span id="yz1"></span>
+						<input type="password" id="mima" placeholder="密码" required pattern="^[a-zA-Z]\d{0,6}$"/>
+						<span id="yz2"></span>
+						<input type="password" id="que" placeholder="再次确认密码" required/>
+						<span id="yz3"></span>
+						<p style="display: flex;"> 
+							<input type="text" id="yan1" placeholder="验证码" required/>
+							<img src="img/zhong-you-1.jpg"/><br /><br /><br /><br />
+							<span id="yz4"></span>
+						
+						</p>
+						<p style="display: flex;">
+							<input type="text" id="yan2" placeholder="短信验证码" required/>
+							<input type="button" id="yan3" value="获取验证码" / style="width: 115px;margin-left: 3%;"><br/><br/><br/><br/>
+							<span id="yz5"></span>
+						</p>
+						
+						
+						
+					</div>
+					<!--<div class="zheng" style="position: relative;">
+						<input type="text" id="yan1" placeholder="验证码" required/>
+						<img src="img/zhong-you-1.jpg"/><br/>
+						<span id="yz4"></span>
+					</div>
+					<div class="zheng1" style="position: relative;">
+						<input type="text" id="yan2" placeholder="短信验证码" required/>
+						<input type="button" id="yan3" value="获取验证码" /><br/>
+						<span id="yz5"></span>
+					</div>-->
+					
+			</div>
+			<input type="button" id="an" value="立即注册" />
+			<div class="zhus">
+				<p>
+					点击“立即注册”，即表示您同意并愿意遵守醉品<span> 用户协议 </span> 和 <span> 隐私政策 </span>
+				</p>
+			</div>
+			  </div>
+			</div>
+		</div>
+		<div class="center foot">
+			Copyright 2010 - 2018 醉品商城 厦门醉品春秋网络科技有限公司
+		</div>
+		
+		<script type="text/javascript">
+			var tel=document.getElementById('tel');
+			var mima=document.getElementById('mima');
+			var que=document.getElementById('que');
+			var yan1=document.getElementById('yan1');
+			var yan2=document.getElementById('yan2');
+			var yan3=document.getElementById('yan3');
+			var an=document.getElementById('an');
+			var que=document.getElementById('que');
+			var yz1=document.getElementById('yz1');
+			var yz2=document.getElementById('yz2');
+			var yz3=document.getElementById('yz3');
+			var yz4=document.getElementById('yz4');
+			var yz5=document.getElementById('yz5');
+		
+			tel.onblur=function(){
+				var tell=tel.validity;
+				if(tell.patternMismatch){
+					yz1.innerHTML="电话号码格式不对";
+					yz1.style.color='red';
+				}else{
+					yz1.innerHTML="正确";
+					yz1.style.color='green';
+				}
+				if(tell.valueMissing){
+					yz1.innerHTML="电话号不能为空";
+					yz1.style.color='red';
+				}
+			}
+			mima.onblur=function(){
+				var pass=mima.validity;
+				if(pass.patternMismatch){
+					yz2.innerHTML="输入字母与数字相结合的密码";
+					yz2.style.color='red';
+				}else{
+					yz2.innerHTML="正确";
+					yz2.style.color='green';
+				}
+				if(pass.valueMissing){
+					yz2.innerHTML="密码不能为空";
+					yz2.style.color='red';
+				}
+			}
+			que.onblur=function(){
+				var pass1=que.validity;
+				if(pass1.valueMissing){
+					yz3.innerHTML="密码不能为空";
+					yz3.style.color='red';
+				}else{
+					yz3.innerHTML="正确";
+					yz3.style.color='green';
+				}
+				if(que.value!=mima.value){
+					yz3.innerHTML="请确保两次输入的密码一致";
+					yz3.style.color='red';
+				}else{
+					yz3.innerHTML="正确";
+					yz3.style.color='green';	
+				}
+				if(pass1.valueMissing){
+					yz3.innerHTML="密码确认不能为空";
+					yz3.style.color='red';
+				}
+			}
+			yan1.onblur=function(){
+				if(yan1.value==""){
+					yz4.innerHTML="验证码不能为空";
+					yz4.style.color="red";
+				}else if(yan1.value!="bigi4"){
+					yz4.innerHTML="请输入正确验证码";
+					yz4.style.color="red";
+				}else{
+					yz4.innerHTML="正确";
+					yz4.style.color='green';
+				}
+			}
+			var m;
+			yan3.onclick=function(){
+				m=Math.floor(Math.random()*600000);
+				alert(m);
+			}
+			yan2.onblur=function(){
+				if(yan2.value==""||yan2.value==null){
+					yz5.innerHTML="验证码不能为空";
+					yz5.style.color="red";
+				}else if(yan2.value==m){
+					yz5.innerHTML="正确";
+					yz5.style.color='green';
+				}else{
+					yz5.innerHTML="请输入正确验证码";
+					yz5.style.color="red";
+				}
+			}
+			
+			
+			
+			function btnSave(){
+				var key=tel.value;
+				var val=mima.value;
+				localStorage.setItem(key,val);
+				if(yz1.innerHTML=="正确"&&yz2.innerHTML=="正确"&&yz3.innerHTML=="正确"&&yz4.innerHTML=="正确"&&yz5.innerHTML=="正确"){
+					alert("注册成功");
+					window.location="denglu.html";
+				}
+			}
+			an.addEventListener('click',btnSave,false);
+		</script>
+	</body>
+</html>
